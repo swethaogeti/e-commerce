@@ -1,3 +1,4 @@
-@import url(navbar.css);
-@import url(homepage.css);
+@import url('navbar.css');
+@import url('homepage.css');
+@import url('form.css');
 @import url('root.css');
