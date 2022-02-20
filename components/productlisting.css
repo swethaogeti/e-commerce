@@ -1,0 +1,100 @@
+.productlisting {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas: 'sidebar main-layout';
+  margin-bottom: 2rem;
+}
+
+.container-mini {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productlisting .sidebar {
+  grid-area: sidebar;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.productlisting .main-layout {
+  grid-area: main-layout;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  background-color: var(--light-grey);
+  margin: 1rem 2rem 0 1rem;
+}
+
+.productlisting .main-layout .container-mini {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.productlisting .main-layout .container-mini h1 {
+  margin: 1rem 3rem;
+}
+
+.productlisting .main {
+  grid-area: main;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.margin-bottom {
+  margin-bottom: 1.6rem;
+}
+
+
+.productlisting .main .card-container {
+  width: 25rem;
+  font-size: 1.5rem;
+  outline: none;
+  margin: 2rem;
+  background-color: white;
+}
+
+.productlisting .main .card-container h4 {
+  font-size: 2.3rem;
+}
+
+.productlisting .main .card-container p {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.productlisting .main .card-container .price-container {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.productlisting .main .card-container .btn {
+  font-size: 1.6rem;
+  height: 3.5rem;
+}
+
+
+.productlisting .main .card-container .iconify {
+  font-size: 2.5rem;
+}
+
+
+.productlisting .sidebar {
+  padding: 1rem 4rem 0rem 4rem;
+  font-size: 1.4rem;
+}
+
+
+.productlisting .sidebar input {
+  margin: 0.8rem
+}
+
+.slider {
+  width: 100%;
+}

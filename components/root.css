@@ -7,6 +7,7 @@
     --primary-grey: rgb(148, 142, 142);
     --grey-1:rgb(177, 174, 174);
     --black:#000000;
+    --light-grey:#FCFCFC;
 }
 button{
     border:none;
