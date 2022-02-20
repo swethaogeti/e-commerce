@@ -73,7 +73,9 @@
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
-
+.productlisting .main .card-container .price-container s{
+  text-decoration: line-through;
+}
 .productlisting .main .card-container .btn {
   font-size: 1.6rem;
   height: 3.5rem;

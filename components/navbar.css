@@ -24,8 +24,8 @@
     background-color:white;
     border: 2px solid var(--primary-grey);
 }
-.nav-links{
-    margin-right: 20rem;
+.nav-links a:hover{
+    color: var(--primary-voilet);
 
 }
 .nav-links a{
