@@ -3,8 +3,8 @@
 swetha is a fashion ecommerce store , listing all trending products 
 
 # tech stack used
-/HTML
-/CSS
+HTML
+CSS
 for ui used :https://swethaui-component-library.netlify.app/components.css
 
 
