@@ -1,0 +1,127 @@
+.cart-section h1{
+text-align: center;
+font-size: 3rem;
+color: var(--primary-dark);
+}
+.my-cart{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 5rem auto;
+    color: var(--grey-1);
+}
+
+
+.my-cart .horizontal-card-container .img-container{
+    width: 25rem;
+    height: 35rem;
+}
+
+.my-cart .horizontal-card-container{
+    width: 60rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.my-cart .horizontal-card-container h2{
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+.my-cart .horizontal-card-container p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin: 1rem;
+}
+
+.hz-box{
+   display: flex;
+   flex-direction: column;
+   margin: 2.5rem;
+   padding: 1rem;
+}
+.hz-box h1{
+    font-size: 1.6rem;
+color: var(--primary-dark);
+}
+
+.hz-box span{
+    font-size: 2rem;
+    margin: 0 1.5rem;
+}
+
+.hz-box s{
+    color: var(--grey-1);
+    font-size: 1.5rem;
+}
+.hz-box #offer{
+    color: var(--primary-grey);
+}
+.hz-box .counter-btn,.btn-float{
+    width: 3rem;
+    margin: 0 1rem;
+    outline: 1px solid var(--grey);
+
+}
+.hz-box .btn-secondary{
+    background-color: var(--primary-grey);
+}
+.hz-box .fa{
+color: var(--secondary-dark);
+box-shadow: none;
+}
+.hz-box .container-mini{
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+.hz-box .btn{
+    height: 3rem;
+    font-size: 1.4rem;
+margin: 0.5rem 0;
+}
+.hz-box .btn-float{
+    background-color:var(--light-grey);
+}
+
+
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--primary-dark);
+    width: 40rem;
+    height:35rem ;
+    margin:0 3rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+.cart-container .cart-box{
+width: 80%;
+margin: 3rem 4rem;
+
+}
+hr{
+    border: 1px solid var(--primary-grey);
+}
+.cart-box h1{
+    font-size: 1.6rem;
+    margin: 1.5rem 0 1.5rem 0;
+}
+.cart-box h3, span{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin:1rem 0 1rem 0;
+    color: var(--primary-dark);
+}
+.cart-box .btn{
+    width: 100%;
+    height: 3.5rem;
+    font-size: 1.4rem;
+}
+.cart-box p{
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1.5rem 0;
+}
